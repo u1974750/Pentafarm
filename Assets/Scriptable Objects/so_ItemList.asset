@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a399b692cfc8341bfefd427f7fed88, type: 3}
+  m_Name: so_ItemList
+  m_EditorClassIdentifier: 
+  itemDetails:
+  - itemCode: 9999
+    itemType: 10
+    itemDescription: Null
+    itemLongDescription: 
+    itemSprite: {fileID: 21300000, guid: bf6c36035c1f39a47851d247f1007f3c, type: 3}
+    prefab: {fileID: 0}
+    stnapCell: 0
+    itemUseGridRadius: 0
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeSold: 0
+    buyPrice: 0
+    sellPrice: 0
+  - itemCode: 101
+    itemType: 0
+    itemDescription: "Semillas de Mel\xF3n"
+    itemLongDescription: 'Plantalas en suelo arado, si las riegas puedes obtener
+      unos buenos melones '
+    itemSprite: {fileID: 21300000, guid: 548fc3b6fc47e7d4f8847f2869839263, type: 3}
+    prefab: {fileID: 0}
+    stnapCell: 0
+    itemUseGridRadius: 2
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeSold: 1
+    buyPrice: 60
+    sellPrice: 36
+  - itemCode: 102
+    itemType: 0
+    itemDescription: Semillas de Repollos
+    itemLongDescription: Plantalas en suelo arado, si las riegas puedes obtener unos
+      buenos repollos
+    itemSprite: {fileID: 21300000, guid: 5971147c33b40844a97155ca871ee110, type: 3}
+    prefab: {fileID: 0}
+    stnapCell: 0
+    itemUseGridRadius: 2
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeSold: 1
+    buyPrice: 100
+    sellPrice: 60
+  - itemCode: 103
+    itemType: 0
+    itemDescription: Brote de patata
+    itemLongDescription: Plantalas en suelo arado, si las riegas puedes obtener unas
+      buenas patatas
+    itemSprite: {fileID: 21300000, guid: f82bbf4abfe0d8e489b4692212e45ebf, type: 3}
+    prefab: {fileID: 0}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 0
+    canBeSold: 1
+    buyPrice: 30
+    sellPrice: 18
+  - itemCode: 201
+    itemType: 2
+    itemDescription: "Mel\xF3n"
+    itemLongDescription: Jugoso y delicioso, para ser un buen Melon Lord
+    itemSprite: {fileID: 21300000, guid: 8319612acd594904fbead3df46afbfea, type: 3}
+    prefab: {fileID: 1000014111768446, guid: 2cf13a738fc434c46bda5ebf7ca44756, type: 3}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 112
+    sellPrice: 112
+  - itemCode: 202
+    itemType: 2
+    itemDescription: Repollo
+    itemLongDescription: Jugoso y delicioso,  cuidado no los guardes en un carro....
+    itemSprite: {fileID: 21300000, guid: b352e9fde76ff8d479480544d9f1d1d3, type: 3}
+    prefab: {fileID: 4239410395697893585, guid: b884480670451714f991b681816043e1, type: 3}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 180
+    sellPrice: 180
+  - itemCode: 203
+    itemType: 2
+    itemDescription: Patata
+    itemLongDescription: Jugoso y delicioso,  cuidado no los guardes en un carro....
+    itemSprite: {fileID: 21300000, guid: 8fbcf2d2619ea354a8c8f64c14799a43, type: 3}
+    prefab: {fileID: 2415542655647834164, guid: 3291e195205628448b07f39eeb3619b2, type: 3}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 50
+    sellPrice: 50
+  - itemCode: 301
+    itemType: 1
+    itemDescription: Semillas de Cama
+    itemLongDescription: Semillas para recolectar... una cama?
+    itemSprite: {fileID: 21300000, guid: ca3bb4a40aea8554e866119ac26237ed, type: 3}
+    prefab: {fileID: 1000013670052190, guid: f3a9c7ecfacfb2f4db788d6a3acdbf54, type: 3}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeSold: 0
+    buyPrice: 340
+    sellPrice: 100
+  - itemCode: 306
+    itemType: 1
+    itemDescription: Semillas de Mesa
+    itemLongDescription: Semillas para recolectar... una mesa?
+    itemSprite: {fileID: 21300000, guid: 9c8050b903f5df64c98e9cc311e7411d, type: 3}
+    prefab: {fileID: 1000013670052190, guid: f3a9c7ecfacfb2f4db788d6a3acdbf54, type: 3}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeSold: 0
+    buyPrice: 300
+    sellPrice: 120
+  - itemCode: 311
+    itemType: 1
+    itemDescription: Semillas de Vallas
+    itemLongDescription: Semillas para recolectar... una valla?
+    itemSprite: {fileID: 21300000, guid: 6d54cfbc6309d3e49a8e809ccde3ef1f, type: 3}
+    prefab: {fileID: 5823979476791119224, guid: 9d2be51c78e9cf6468214951f14fef88, type: 3}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeSold: 0
+    buyPrice: 46
+    sellPrice: 23
+  - itemCode: 401
+    itemType: 10
+    itemDescription: Cama Roja
+    itemLongDescription: "Puedes usarla para decorar tu granja \xA1Tambi\xE9n puedes
+      dormir en ella!"
+    itemSprite: {fileID: 21300000, guid: c50328e85de070a449f42e6bc8ca6b4a, type: 3}
+    prefab: {fileID: 2239424598300073812, guid: 4d2b9004e9d29de4da28c9bd5c40f62f, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 390
+    sellPrice: 390
+  - itemCode: 402
+    itemType: 10
+    itemDescription: Cama Amarilla
+    itemLongDescription: "Puedes usarla para decorar tu granja \xA1Tambi\xE9n puedes
+      dormir en ella!"
+    itemSprite: {fileID: 21300000, guid: c9aa16e9b814c80449204436c5c252e5, type: 3}
+    prefab: {fileID: 1911198306816657003, guid: 1039233644f74de4cae11ee95c9f6611, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 390
+    sellPrice: 390
+  - itemCode: 403
+    itemType: 10
+    itemDescription: Cama Azul
+    itemLongDescription: "Puedes usarla para decorar tu granja \xA1Tambi\xE9n puedes
+      dormir en ella!"
+    itemSprite: {fileID: 21300000, guid: 5cb93a493dc11864cb01e75fb07966b4, type: 3}
+    prefab: {fileID: 3515537117012216301, guid: e20b59f634202a14199b8530b5663b6b, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 390
+    sellPrice: 390
+  - itemCode: 404
+    itemType: 10
+    itemDescription: Cama Verde
+    itemLongDescription: "Puedes usarla para decorar tu granja \xA1Tambi\xE9n puedes
+      dormir en ella!"
+    itemSprite: {fileID: 21300000, guid: fc4cd2d965875fa4b9cc26a3ef1ccdf5, type: 3}
+    prefab: {fileID: 3619987152658939346, guid: ef55af151a8ff3c42ab7ebe63505d55f, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 390
+    sellPrice: 390
+  - itemCode: 406
+    itemType: 10
+    itemDescription: Mesa Roja
+    itemLongDescription: 'Puedes usarla para decorar tu granja '
+    itemSprite: {fileID: 21300000, guid: cd44e6ed3587ae14fa80b89966c0ae89, type: 3}
+    prefab: {fileID: 7121283633174972471, guid: f9dc52cda51083847af4139598f2d68e, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 370
+    sellPrice: 370
+  - itemCode: 407
+    itemType: 10
+    itemDescription: Mesa Amarilla
+    itemLongDescription: 'Puedes usarla para decorar tu granja '
+    itemSprite: {fileID: 21300000, guid: 8815f05a744d40d44880f979290db72d, type: 3}
+    prefab: {fileID: 4538762401121044854, guid: 800371109722f6248a9a9739469d4d0b, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 370
+    sellPrice: 370
+  - itemCode: 408
+    itemType: 10
+    itemDescription: Mesa Azul
+    itemLongDescription: 'Puedes usarla para decorar tu granja '
+    itemSprite: {fileID: 21300000, guid: db60f2b074d02a64b8d5ed4d1a33b226, type: 3}
+    prefab: {fileID: 2398338157189345836, guid: 1133c54fb44e2984881cba1814e1c644, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 370
+    sellPrice: 370
+  - itemCode: 409
+    itemType: 10
+    itemDescription: Mesa Verde
+    itemLongDescription: 'Puedes usarla para decorar tu granja '
+    itemSprite: {fileID: 21300000, guid: 10cc7ddc51111c94fb2678ee480b0ee6, type: 3}
+    prefab: {fileID: 4821022210583305665, guid: 935def36b3f64a44fa321e7cb1431d08, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 370
+    sellPrice: 370
+  - itemCode: 411
+    itemType: 10
+    itemDescription: Valla
+    itemLongDescription: Puedes usarla para decorar tu granja,rotala pulsando Rclick
+      . Ayuda a limitar tus cultivos
+    itemSprite: {fileID: 21300000, guid: 61a175cd19cb01640b7e90fe3addea69, type: 3}
+    prefab: {fileID: 5823979476791119224, guid: 7b6ce707035a3dd4bbf18b1c112014bf, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 70
+    sellPrice: 70
+  - itemCode: 412
+    itemType: 10
+    itemDescription: Valla
+    itemLongDescription: Puedes usarla para decorar tu granja,rotala pulsando Rclick.
+      Ayuda a limitar tus cultivos
+    itemSprite: {fileID: 21300000, guid: 9c58c70ef22e26b4a815310b718a3adb, type: 3}
+    prefab: {fileID: 5993897172640547760, guid: 253f4c54bf42fb847b340f60a3c0ed06, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 70
+    sellPrice: 70
+  - itemCode: 413
+    itemType: 10
+    itemDescription: Valla
+    itemLongDescription: Puedes usarla para decorar tu granja,rotala pulsando Rclick.
+      Ayuda a limitar tus cultivos
+    itemSprite: {fileID: 21300000, guid: 63542b3a4b4f12f47b5cbdf833214b64, type: 3}
+    prefab: {fileID: 8752561714801739791, guid: a0c64f4228f4f674aa6ff6e5d8b0ca4a, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 70
+    sellPrice: 70
+  - itemCode: 414
+    itemType: 10
+    itemDescription: Valla
+    itemLongDescription: Puedes usarla para decorar tu granja,rotala pulsando Rclick.
+      Ayuda a limitar tus cultivos
+    itemSprite: {fileID: 21300000, guid: 3df373017720ec64e86043614fbb332f, type: 3}
+    prefab: {fileID: 5133795638998631528, guid: 9d70646d723ecca4db8568f380ed6a42, type: 3}
+    stnapCell: 2
+    itemUseGridRadius: 1
+    canBePickedUp: 1
+    canBeDropped: 1
+    canBeSold: 1
+    buyPrice: 70
+    sellPrice: 70
+  - itemCode: 501
+    itemType: 4
+    itemDescription: Azada
+    itemLongDescription: "\xDAsala para arar el suelo,ara ara. Solo usable en el
+      suelo de tu granja, no queremos invadir de plantas el pueblo"
+    itemSprite: {fileID: 21300000, guid: 279938bd33383c643a92c9c084767392, type: 3}
+    prefab: {fileID: 535447847076917476, guid: a542beae942814c4d832a32fe51eccfb, type: 3}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeSold: 0
+    buyPrice: 0
+    sellPrice: 0
+  - itemCode: 502
+    itemType: 3
+    itemDescription: Regadera
+    itemLongDescription: "\xDAsala para regar tus plantas. Recuerda, una planta feliz
+      bebe una vez al d\xEDa"
+    itemSprite: {fileID: 21300000, guid: 9b8e5333127ddb14dbd04443ecd5847e, type: 3}
+    prefab: {fileID: 0}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeSold: 0
+    buyPrice: 0
+    sellPrice: 0
+  - itemCode: 503
+    itemType: 8
+    itemDescription: Cesta Recolectora
+    itemLongDescription: "\xDAsala para recoger las plantas cuando hayan crecido"
+    itemSprite: {fileID: 21300000, guid: 4ac8d5afc5c74d14ca182070bf2bc05f, type: 3}
+    prefab: {fileID: 0}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeSold: 0
+    buyPrice: 0
+    sellPrice: 0
+  - itemCode: 504
+    itemType: 6
+    itemDescription: Martillo
+    itemLongDescription: "\xDAsalo para romper muebles y as\xED poder cambiarlos
+      de sitio"
+    itemSprite: {fileID: 21300000, guid: f142c4f802419494fa7400674add4fc5, type: 3}
+    prefab: {fileID: 0}
+    stnapCell: 0
+    itemUseGridRadius: 1
+    canBePickedUp: 0
+    canBeDropped: 0
+    canBeSold: 0
+    buyPrice: 0
+    sellPrice: 0

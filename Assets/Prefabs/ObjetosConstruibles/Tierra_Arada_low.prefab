@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &535447847076917476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 875275398805727838}
+  - component: {fileID: 4290313901812950523}
+  - component: {fileID: 2048775587919286577}
+  - component: {fileID: -4708005023208996939}
+  - component: {fileID: -8911392011636730171}
+  - component: {fileID: -2629815507270021307}
+  m_Layer: 6
+  m_Name: Tierra_Arada_low
+  m_TagString: Plow
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &875275398805727838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535447847076917476}
+  m_LocalRotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
+  m_LocalPosition: {x: -1.861, y: 0.01508975, z: 1.8555}
+  m_LocalScale: {x: 0.6213462, y: 0.6213462, z: 0.6213462}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4290313901812950523
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535447847076917476}
+  m_Mesh: {fileID: 1818169807435333526, guid: 1d634bcadaa460040bf831717b5df3ab, type: 3}
+--- !u!23 &2048775587919286577
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535447847076917476}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8d9fd6fae932e8a4a9076c99cab05591, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-4708005023208996939
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535447847076917476}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9, y: 0.0301795, z: 1.9}
+  m_Center: {x: 3.3258e-41, y: 0, z: -0.01508978}
+--- !u!114 &-8911392011636730171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535447847076917476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8eb30094701fb49b5925f2bd670204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seeds: {fileID: 1000011580534764, guid: c26cacf51e485c54b95fdbf9ad976ddf, type: 3}
+  plantState1: {fileID: 1000013410243764, guid: 56b36da289d9a9e4cb37c5f588e23748, type: 3}
+  plantState2: {fileID: 1000010824186820, guid: 30319199574ca3644bf3898bb5cac486, type: 3}
+  plantState3: {fileID: 1000013832410636, guid: 323e5d46aea633c42bfadb66b36971d8, type: 3}
+  watered: {fileID: 2100000, guid: 179ac854f79c6884d8847887ddfa4dd7, type: 2}
+  notWatered: {fileID: 2100000, guid: 8d9fd6fae932e8a4a9076c99cab05591, type: 2}
+--- !u!114 &-2629815507270021307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535447847076917476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca13e34a5da7b148a6f04fd82277471, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDrop: {fileID: 7568794718055150127, guid: fdbd6b0bdfa9b04428be740dd2df5cdd, type: 3}
